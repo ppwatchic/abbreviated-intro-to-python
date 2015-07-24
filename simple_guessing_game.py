@@ -7,20 +7,22 @@ a different message depending on if the guess is:
 * Too low
 * Just right :-D
 """
+import random
 
-number_to_guess = rand(10)
-print number_to_guess
+number_to_guess = random.randint(1,10)
+# print number_to_guess
 print "We are thinking of a number between 1 to 10. "
-guess = raw_input("Take a guess: ")
+guess = int(raw_input("Take a guess: "))
+
 
 """
 ITERATION TWO: Now allow the user 5 guesses.
 """
 
 while True:
-	# Do stuff
-	break  # You can use break to exit a while loop should you want. 
-
+	# Do stuff	
+		break  # You can use break to exit a while loop should you want. 
+	
 
 
 

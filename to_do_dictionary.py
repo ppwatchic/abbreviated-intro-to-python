@@ -18,8 +18,20 @@ my_to_dos = {}
 # task descriptions**!!! You can create the number yourself, 
 # just ask the user for the task description. How can we repeat asking 
 # the user to give us all the items?
+while 1:
+	to_do_item = raw_input("So key in your to-do-list:> ")
+	my_to_dos[len(my_to_dos)] = to_do_item
+	if len(my_to_dos) > 4: 
+		break
 
 print "Fantastic! Here is the list of things you have to do today:"
+
+
+for key,value in my_to_dos.items():
+	print "item " + str(key) + " is " + my_to_dos[key]
+
+
+print my_to_dos
 
 # Again, how can we repeat something? But this time
 # it doesn't have to be tied to a specific condition. 

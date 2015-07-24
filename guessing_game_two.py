@@ -36,5 +36,6 @@ turns = 0
 
 while game_not_over:
 	# TODO: ask for user input 
+	
 	# determine what message to show user
 	# determine if guess is correct
