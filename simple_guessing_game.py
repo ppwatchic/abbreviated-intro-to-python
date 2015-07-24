@@ -7,7 +7,8 @@ a different message depending on if the guess is:
 * Too low
 * Just right :-D
 """
-import random
+# import library for randint() method
+import random 
 
 number_to_guess = random.randint(1,10)
 # print number_to_guess
